@@ -29,13 +29,15 @@ pages:
 
 - [guide/base.md, '开发者指南', '基本概念']
 - [guide/advance.md, '开发者指南', '高级功能']
+- [guide/datasecurity.md, '开发者指南', '数据安全']
+- [guide/qualitycontrol.md, '开发者指南', '质量控制']
 
 - [api/index.md, 'API说明', '规则']
-- [api/send_email.md, 'API说明', '邮件发送']
-- [api/template_do.md, 'API说明', '邮件模板']
-- [api/queuestatus_do.md, 'API说明', '队列状态']
-- [api/stats_do.md, 'API说明', '数据统计']
-- [api/user_info.md, 'API说明', '用户信息']
+- [api/task_create.md, 'API说明', '任务创建']
+- [api/taskresult.md, 'API说明', '任务结果']
+- [api/taskresult_reject.md, 'API说明', '队列状态']
+- [api/project.md, 'API说明', '项目状态']
+- [api/task.md, 'API说明', '任务状态']
 
 - [downloads/index.md, 'SDK&代码示例', '代码示例']
 - [downloads/code/java.md, 'SDK&代码示例','Java']
