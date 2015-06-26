@@ -1,10 +1,10 @@
 ## send
      
-发送一个短信模板给一个用户
+批量发布任务
 
 **URL**
 ```
-http://sendcloud.sohu.com/smsapi/send
+http://api.crowdtask.cn/task/batch
 ```
 
 **返回数据格式**
@@ -21,14 +21,14 @@ POST
     
 |参数           |类型           |必选       |说明|
 |:--------------|:--------------|:----------|:---|
-|smsUser        |string         |是         |子账号|
-|templateId     |int            |是         |模板ID|
-|phone          |string         |是         |收信人手机号|
-|vars           |string         |否         |替换变量的json串|
-|signature      |string         |是         |签名, 合法性验证|
-|timestamp      |string         |否         |UNIX时间戳|
+|accessid       |string         |是         |接口ID|
+|projectid     	|int            |是         |项目ID|
+|inputCVS       |file         	|是         |替换变量的json串|
+|signature      |string         |是         |签名, 合法性验证，[签名计算方法](../faq/index.md#3)|
+|localtime      |string         |是         |UNIX时间戳|
+
     
-*vars格式示例:*
+*CVS文件格式示例:*
 
     {"%name%": "lucy"}
 
@@ -37,10 +37,12 @@ POST
 1. 参数 vars 可能含有特殊字符, 记得 `urlencode`
 
 2. vars 所传递的变量的值, 长度不能超过 16 个字符
+
+3. 如果localtime与CrowdTask的时间差大于5分钟，
 - - -
 ## sendn (暂不开通)
 
-发送一个短信模板给多个用户, 每个用户对应一个替换变量.
+获取任务结果.
     
 **URL**
 ```

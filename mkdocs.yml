@@ -1,8 +1,8 @@
-site_name: SendCloud 文档中心
+site_name: CrowdTask 文档中心
 
-site_url: http://sendcloud.sohu.com
+site_url: http://www.crowdtask.cn
 
-repo_url: https://github.com/sendcloud2013/sendcloud_docs/
+repo_url: https://github.com/navyfeng/crowdtask_docs
 
 docs_dir: sources
 
@@ -12,51 +12,35 @@ theme_dir: themes/mkdocs
 
 theme_center_lead: false
 
+theme: mkdocs
+
+use_directory_urls: false
+
 include_search: true
 
 include_next_prev: false
 
-copyright: Copyright &copy; 2015, SendCloud
+copyright: Copyright &copy; 2015, CrowdTask
 
-author: liubida && lianzimi && xuhong
+author: navyfeng
 
 pages:
-# Develop Guide
-# - ['guide/index.md', '开发指南', '开发者指南']
-# - ['guide/php_rest_guide.md', '开发指南', 'REST API 简易指南（PHP）']
-#
 - [index.md, '文档首页', '文档首页']
+
 - [guide/base.md, '开发者指南', '基本概念']
 - [guide/advance.md, '开发者指南', '高级功能']
 
-- [email/index.md, '邮件API', '规则']
-- [email/send_email.md, '邮件API', '邮件发送']
-- [email/template_do.md, '邮件API', '邮件模板']
-- [email/list_do.md, '邮件API', '地址列表']
-- [email/label_do.md, '邮件API', '邮件标签']
-- [email/queuestatus_do.md, '邮件API', '队列状态']
-- [email/stats_do.md, '邮件API', '数据统计']
-- [email/user_info.md, '邮件API', '用户信息']
-- [email/bounce_do.md, '邮件API', '退信列表管理']
-- [email/unsubscribe_do.md, '邮件API', '取消订阅管理']
-- [email/spamreported_do.md, '邮件API', '垃圾举报管理']
-- [email/webhook.md, '邮件API', 'WebHook 详细']
+- [api/index.md, 'API说明', '规则']
+- [api/send_email.md, 'API说明', '邮件发送']
+- [api/template_do.md, 'API说明', '邮件模板']
+- [api/queuestatus_do.md, 'API说明', '队列状态']
+- [api/stats_do.md, 'API说明', '数据统计']
+- [api/user_info.md, 'API说明', '用户信息']
 
-- [sms/index.md, '短信API', '规则']
-- [sms/api.md, '短信API', 'API']
+- [downloads/index.md, 'SDK&代码示例', '代码示例']
+- [downloads/code/java.md, 'SDK&代码示例','Java']
 
-- [downloads/index.md, '代码示例', '代码示例']
-- [downloads/code/curl.md, '代码示例','Curl']
-- [downloads/code/python.md, '代码示例','Python']
-- [downloads/code/java.md, '代码示例','Java']
-- [downloads/code/php.md, '代码示例','Php']
-- [downloads/code/ruby.md, '代码示例','Ruby']
-- [downloads/code/perl.md, '代码示例','Perl']
-- [downloads/code/csharp.md, '代码示例','C#']
-- [downloads/code/golang.md, '代码示例','Golang']
-- [downloads/code/nodejs.md, '代码示例','Node.js']
-
-- [faq/index.md, 'FAQ', 'FAQ']
+- [faq/index.md, '常见问题', 'FAQ']
 
 
 # theme: mkdocs
