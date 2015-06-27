@@ -16,33 +16,36 @@ theme: mkdocs
 
 use_directory_urls: false
 
-include_search: true
+#include_search: true
 
 include_next_prev: false
 
 copyright: Copyright &copy; 2015, CrowdTask
 
 author: navyfeng
-
 pages:
-- [index.md, '文档首页', '文档首页']
+- 文档首页:
+    - '文档首页': 'index.md'
 
-- [guide/base.md, '开发者指南', '基本概念']
-- [guide/advance.md, '开发者指南', '高级功能']
-- [guide/datasecurity.md, '开发者指南', '数据安全']
-- [guide/qualitycontrol.md, '开发者指南', '质量控制']
+- 开发者指南:
+    - '基本概念': 'guide/base.md'
+    - '高级功能': 'guide/advance.md'
+    - '数据安全': 'guide/datasecurity.md'
+    - '质量控制': 'guide/qualitycontrol.md'
 
-- [api/index.md, 'API说明', '规则']
-- [api/task_create.md, 'API说明', '任务创建']
-- [api/taskresult.md, 'API说明', '任务结果']
-- [api/taskresult_reject.md, 'API说明', '队列状态']
-- [api/project.md, 'API说明', '项目状态']
-- [api/task.md, 'API说明', '任务状态']
+- API说明:
+    - '规则': 'api/index.md'
+    - '任务创建': 'api/task_create.md'
+    - '任务结果': 'api/taskresult.md'
+    - '拒绝任务结果': 'api/taskresult_reject.md'
+    - '项目状态': 'api/project.md'
+    - '任务状态': 'api/task.md'
 
-- [downloads/index.md, 'SDK&代码示例', '代码示例']
-- [downloads/code/java.md, 'SDK&代码示例','Java']
+- SDK&代码示例:
+    - '代码示例': 'downloads/index.md'
+    - 'SDK&代码示例': 'downloads/code/java.md'
 
-- [faq/index.md, '常见问题', 'FAQ']
-
+- 常见问题:
+   - 'FAQ': 'faq/index.md'
 
 # theme: mkdocs
