@@ -2,7 +2,7 @@ site_name: CrowdTask 文档中心
 
 site_url: http://www.crowdtask.cn
 
-repo_url: https://github.com/navyfeng/crowdtask_docs
+#repo_url: https://github.com/navyfeng/crowdtask_docs
 
 docs_dir: sources
 
@@ -34,12 +34,9 @@ pages:
     - '质量控制': 'guide/qualitycontrol.md'
 
 - API说明:
-    - '规则': 'api/index.md'
-    - '任务创建': 'api/task_create.md'
-    - '任务结果': 'api/taskresult.md'
-    - '拒绝任务结果': 'api/taskresult_reject.md'
-    - '项目状态': 'api/project.md'
-    - '任务状态': 'api/task.md'
+    - 'API概述': 'api/index.md'
+    - '任务': 'api/task.md'
+    - '结果': 'api/taskresult.md'
 
 - SDK&代码示例:
     - '代码示例': 'downloads/index.md'

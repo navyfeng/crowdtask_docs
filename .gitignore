@@ -1,4 +1,6 @@
 site/*
 doc/*
-mkdocs.exe
-mkdocs-script.py
+bin/*
+src/*
+.project
+.classpath

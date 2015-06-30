@@ -8,7 +8,7 @@
 
 ## [开发指南](guide/base.md)
 
-## [API介绍](api/index.md)
+## [API说明](api/index.md)
 
 ## [SDK&代码示例](downloads/index.md)
 
