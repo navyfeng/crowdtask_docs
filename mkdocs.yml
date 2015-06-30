@@ -31,7 +31,6 @@ pages:
     - '基本概念': 'guide/base.md'
     - '高级功能': 'guide/advance.md'
     - '数据安全': 'guide/datasecurity.md'
-    - '质量控制': 'guide/qualitycontrol.md'
 
 - API说明:
     - 'API概述': 'api/index.md'
