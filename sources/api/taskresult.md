@@ -4,7 +4,7 @@
 
 **URL**
 ```  
-http://api.crowdtask.cn/task/results
+http://api.crowdtask.cn/api/task/assignments
 ```
 
 **HTTP请求方式**
@@ -42,7 +42,7 @@ GET
 
 **URL**
 ```  
-http://api.crowdtask.cn/task/assignment
+http://api.crowdtask.cn/api/task/assignment
 ```
    
 **HTTP请求方式**
@@ -68,5 +68,6 @@ GET
 	"answertime":,										// 提交答案时间('1970-01-01 00:00:00' GMT之后的毫秒数)
 	"answer":"input_1:kitch;input_2:bedroom;input_3:bedroom"
 														// 答案，多个输入项以';'分割，每个输入项的名字和值以':'分割
+														// 如果答案还没提交，answer为null，answertime为0
 }
 ```

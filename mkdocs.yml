@@ -10,7 +10,7 @@ site_dir: doc
 
 theme_dir: themes/mkdocs
 
-theme_center_lead: false
+#theme_center_lead: false
 
 theme: mkdocs
 
@@ -22,7 +22,8 @@ include_next_prev: false
 
 copyright: Copyright &copy; 2015, CrowdTask
 
-author: navyfeng
+#author: navyfeng
+
 pages:
 - 文档首页:
     - '文档首页': 'index.md'
@@ -42,6 +43,6 @@ pages:
     - 'SDK&代码示例': 'downloads/code/java.md'
 
 - 常见问题:
-   - 'FAQ': 'faq/index.md'
+   - '常见问题': 'faq/index.md'
 
 # theme: mkdocs

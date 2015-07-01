@@ -51,11 +51,11 @@ signature = hex_hmac_md5(accesssecretkey,data)
 举例如下: 
 
 ``` 
-action_uri='/task/batch'  
+action_uri='/api/task/batch'  
 localtime='1435132361000'
 accesssecretkey='0987654321'
-data='/task/batch&1435132361000'
-signature='43132b40d2901c920e4926208cb916b6'
+data='/api/task/batch&1435132361000'
+signature='6c52e7babb792123c66424d36c7805ba'
 ```
 - - -
 

@@ -2,8 +2,8 @@
 ## 创建
 
 **URL**
-```  
-http://api.crowdtask.cn/task/batch
+```
+http://api.crowdtask.cn/api/task/batch
 ```
    
 **HTTP请求方式**
@@ -19,7 +19,7 @@ POST
 |localtime|是|string|**header**|本地时间，unix_timestamp('1970-01-01 00:00:00'GMT之后的秒数)|
 |signature|是|string|**header**|[身份签名](../api/index.md#signature)|
 |projectid|是|string|parameter|常规项目ID|  
-|taskinputcvs|是|file|parameter|[常规CVS文件](../api/task_create.md#cvs)|  
+|taskinputcvs|是|file|parameter|[常规CVS文件](../api/index.md#cvs)|  
 |publish|否|boolean|parameter|创建后是否立即发布，默认为true|  
 
 注意:
@@ -47,7 +47,7 @@ POST
 
 **URL**
 ```  
-http://api.crowdtask.cn/task/details
+http://api.crowdtask.cn/api/task/details
 ```
    
 **HTTP请求方式**
