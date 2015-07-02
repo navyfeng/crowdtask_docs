@@ -64,8 +64,9 @@ GET
 {		
 	"assignmentid":"mgCmOBuDGYosiFtM",					// 任务分配ID
 	"workerid":123,										// 工人ID
-	"assigntime":,										// 分配时间('1970-01-01 00:00:00' GMT之后的毫秒数)
-	"answertime":,										// 提交答案时间('1970-01-01 00:00:00' GMT之后的毫秒数)
+	"assigntime":1435132361000,							// 分配时间('1970-01-01 00:00:00' GMT之后的毫秒数)
+	"ip":"123.123.123.123",								// 工人IP地址
+	"answertime":1435132561000,							// 提交结果时间('1970-01-01 00:00:00' GMT之后的毫秒数)
 	"answer":"input_1:kitch;input_2:bedroom;input_3:bedroom"
 														// 答案，多个输入项以';'分割，每个输入项的名字和值以':'分割
 														// 如果答案还没提交，answer为null，answertime为0

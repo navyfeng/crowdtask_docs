@@ -45,4 +45,6 @@ pages:
 - 常见问题:
    - '常见问题': 'faq/index.md'
 
+- 关于我们:
+  -  '关于我们': 'about/index.md'
 # theme: mkdocs
