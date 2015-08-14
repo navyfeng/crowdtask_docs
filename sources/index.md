@@ -1,23 +1,25 @@
-## CrowdTask
+## 平台简介
 
-CrowdTask（众智云合），国内首个开放的人工任务平台
+众智云合（www.crowdtask.cn），国内首个开放的人工任务平台
 
-适用于机器难以处理、大量的、但对人而言比较简单的任务
+适用于机器难以处理、但对人而言比较简单的大批量任务
 
 常见的应用场景有：
->视频审核（复审）
 
->图像分类
+><a href="/template/videocategorization.html" target="_blank">视频审核</a>
 
->图像数字化
+><a href="/template/imageModeration.html" target="_blank">图像分类</a>
 
->搜索算法评估、
+><a href="/template/transcriptionFromImage.html" target="_blank">图像数字化</a>
 
->情感检测（好评差评）
+><a href="/template/algorithmEvaluate.html" target="_blank">算法评估</a>
 
->数据采集
+><a href="#" target="_self">情感检测</a>
 
->不规则数据处理
+><a href="/template/dataCollection.html" target="_blank">数据采集</a>
+
+><a href="#" target="_self">不规则数据处理</a>
+
 
 ## [开发指南](guide/base.md)
 

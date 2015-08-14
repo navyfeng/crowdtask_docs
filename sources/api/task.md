@@ -67,7 +67,7 @@ GET
 **返回值示例**
 ```
 {
-	"projectid":123,									// 所属项目ID
+	"projectid":"IHLSGgcyQgEpxwxl",						// 所属项目ID
 	"taskid":"RExJuKBcyQgEtIec",						// 任务ID
 	"title":"家居图片分类",								// 标题
     "description":"为你看到的3张图片选择合适的分类，图片可能是卧室、厨房、书房等，如果是非室内图片请选择类型为其他，并填写一个合适的标签",
@@ -86,43 +86,6 @@ GET
 														// 上传的变量值（cvs文件的一行）
 }
 ```
-
-
-
-
-
-
-## 常规CVS文件
-
-常规CVS文件是用户批量导入常规任务时需要上传的文件
-
-它包括了任务模板中各个变量的值，格式如下：
-
-| variable_1 | variable_2| variable_3 |
-| ------------ | ------------- | ------------ |
-| value_1 | value_2 | value_3 |
-| value_4 | value_5 | value_6 |
-
->第一行是变量名，从第二行开始是变量值，[常规CVS文件示例](/resource/sample.cvs)
-
-**注意:** 常规任务的CVS文件必须是UTF8编码，变量名和值都不能包含空格
-
-
-## 训练CVS文件
-
-训练CVS文件是用户批量导入训练任务时需要上传的文件
-
-和常规任务的CVS文件相比，它不仅包括了任务模板中各个变量的值，而且包括了输入项的参考答案和计分准则,格式如下：
-
-| variable_1 | variable_2| variable_3 | $input_1 | $input_2 | $validator|
-| ------------ | ------------- | ------------ |------------ |------------ |------------ |
-| value_1 | value_2 | value_3 |input_value_1|input_value_2|input_1#equals#1;input_2#biggerThan#3|
-| value_4 | value_5 | value_6 |input_value_3|input_value_4|input_1#noEquals#2;input_2#lessThan#4|
-
->第一行是变量名
->第二行开始是变量值、参考答案、计分准则，[训练CVS文件示例](/resource/trainingsample.cvs)
-
-**注意:** 常规任务的CVS文件必须是UTF8编码，变量名和值都不能包含空格
 
 
 
