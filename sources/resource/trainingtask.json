@@ -11,12 +11,12 @@
 			{
 				"name":"input_1",
 				"comparator":"equals",
-				"value":,0
+				"value":0
 			},
 			{
 				"name":"input_2",
 				"comparator":"bigthan",
-				"value":,1
+				"value":1
 			}
 		]
 	},
@@ -33,12 +33,12 @@
 			{
 				"name":"input_1",
 				"comparator":"equals",
-				"value":,1
+				"value":1
 			},
 			{
 				"name":"input_2",
 				"comparator":"bigthan",
-				"value":,2
+				"value":2
 			}
 		]
 	}

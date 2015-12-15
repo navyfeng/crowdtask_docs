@@ -82,8 +82,8 @@ GET
 	"expiration":1435132361000,							// 任务过期时间(毫秒，'1970-01-01 00:00:00' GMT之后的毫秒数)
 	"autoapprovaldelayinseconds":604800,				// 酬金支付时限（秒）
 	"assignmentdurationinseconds":120,					// 任务执行时限（秒）
-    "question":"mydomain.com/img/4.jpg mydomain.com/img/5.jpg mydomain.com/img/6.jpg"
-														// 上传的变量值（cvs文件的一行）
+    "question":"{\"img_url_1\":\"http://mydomain.com/img/4.jpg mydomain.com/img/5.jpg\",\"img_url_1\":\"mydomain.com/img/6.jpg\"}"
+														// 任务变量
 }
 ```
 

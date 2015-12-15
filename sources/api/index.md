@@ -48,10 +48,10 @@ data = action_uri+'&'+localtime
 signature = hex_hmac_md5(accesssecretkey,data)
 
 ```
-举例如下: 
+签名示例: 
 
 ``` 
-action_uri='/api/task/batch'  
+action_uri='/api/task/batch'
 localtime='1435132361000'
 accesssecretkey='0987654321'
 data='/api/task/batch&1435132361000'
